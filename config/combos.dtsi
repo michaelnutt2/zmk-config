@@ -32,7 +32,7 @@ ZMK_COMBO(m_paste, &kp LG(V),   LB2 LB1,    MAC,              COMBO_TERM_FAST)
 /* Punctuation (horizontal right hand) */
 
 ZMK_COMBO(lbrc,   &kp LBRC,     RT1 RT2,    DEF NAV NUM MAC,  COMBO_TERM_FAST) // {
-ZMK_COMBO(rbrc,   &kp RBRC,     RT2 RT2,    DEF NAV NUM MAC,  COMBO_TERM_FAST) // }
+ZMK_COMBO(rbrc,   &kp RBRC,     RT2 RT3,    DEF NAV NUM MAC,  COMBO_TERM_FAST) // }
 ZMK_COMBO(lpar,   &kp LPAR,     RM1 RM2,    DEF NAV NUM MAC,  COMBO_TERM_FAST) // (
 ZMK_COMBO(rpar,   &kp RPAR,     RM2 RM3,    DEF NAV NUM MAC,  COMBO_TERM_FAST) // )
 ZMK_COMBO(lbrk,   &kp LBKT,     RB1 RB2,    DEF NAV NUM MAC,  COMBO_TERM_FAST) // [
