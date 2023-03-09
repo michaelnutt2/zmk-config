@@ -44,7 +44,7 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
 #define ___ &trans
 
 #define CANCEL      &kp K_CANCEL            // cancel caps-word, num-word, and smart mouse
-#define HYPER       &kp LG(LS(LC(LALT)))
+#define HYPER       &sk LG(LS(LC(LALT)))
 
 /* Settings */
 
