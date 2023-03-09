@@ -10,13 +10,14 @@
 #include "node-free/helper.h"
 #include "node-free/keypos_42keys.h"
 
-#define DEF   0
-#define NAV   1
-#define FN    2
-#define NUM   3
-#define SYS   4
-#define MOUSE 5
-#define MAC   6
+#define DEF    0
+#define NAV    1
+#define FN     2
+#define NUM    3
+#define SYS    4
+#define MOUSE  5
+#define MAC    6
+#define DVORAK 7
 
 #include "combos.dtsi"
 #include "mouse.dtsi"
