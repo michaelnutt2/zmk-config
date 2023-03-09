@@ -1,11 +1,6 @@
 /* source keypos definitions */
 #include "node-free/keypos_42keys.h"
 
-/* map Zen's extra keys */
-#define HYPER   &sk LG(LS(LC(LALT)))
-#define X_LH    HYPER
-#define X_LT    &kp DEL
-
 #define CONFIG_WIRELESS 1
 
 #include "base.keymap"
