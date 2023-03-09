@@ -44,6 +44,7 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
 #define ___ &trans
 
 #define CANCEL      &kp K_CANCEL            // cancel caps-word, num-word, and smart mouse
+#define HYPER       &kp LG(LS(LC(LALT)))
 
 /* Settings */
 
@@ -197,7 +198,7 @@ ZMK_LAYER(base, // 0
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┴─────────────┤
     ___           &kp Z         &kp X         &kp C         &kp V         &kp B           &kp N         &kp M         &comma_morph  &dot_morph    &qexcl        &kp ESC
 //╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                              &kp LGUI      &ss_cw        &lt_bspc FN 0   &lt_spc NAV 0 NUM_WORD      &smart_mouse
+                                              &HYPER        &ss_cw        &lt_bspc FN 0   &lt_spc NAV 0 NUM_WORD      &smart_mouse
 //                                          ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯
 )
 
