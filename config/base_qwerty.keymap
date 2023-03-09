@@ -30,7 +30,7 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
     tapping-term-ms = <220>;
     quick-tap-ms = <220>;                // repeat on tap-into-hold
     hold-trigger-key-positions = <0>;    // tap on interrupt
-}
+};
 
 #define NAV_LEFT    &mt HOME        LEFT    // tap: left  | long-tap: beginning of line
 #define NAV_RIGHT   &mt END         RIGHT   // tap: right | long-tap: end       of line
