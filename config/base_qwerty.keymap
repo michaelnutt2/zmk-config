@@ -28,8 +28,8 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
 &mt {
     flavor = "tap-preferred";
     tapping-term-ms = <220>;
-    quick-tap-ms = <220>;               // repeat on tap-into-hold
-    hold-trigger-key-positions = <0>    // tap on interrupt
+    quick-tap-ms = <220>;                // repeat on tap-into-hold
+    hold-trigger-key-positions = <0>;    // tap on interrupt
 }
 
 #define NAV_LEFT    &mt HOME        LEFT    // tap: left  | long-tap: beginning of line
