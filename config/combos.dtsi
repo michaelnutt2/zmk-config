@@ -27,7 +27,7 @@ ZMK_COMBO(paste,   &kp LS(INS), LB2 LB1,    DEF NAV NUM,      COMBO_TERM_FAST)
 // MAC
 ZMK_COMBO(m_cut,   &kp LG(X),   LB3 LB1,    MAC,              COMBO_TERM_SLOW)
 ZMK_COMBO(m_copy,  &kp LG(C),   LB3 LB2,    MAC,              COMBO_TERM_FAST)
-ZMK_COMBO(m_paste, &kb LG(V),   LB2 LB1,    MAC,              COMBO_TERM_FAST)
+ZMK_COMBO(m_paste, &kp LG(V),   LB2 LB1,    MAC,              COMBO_TERM_FAST)
 
 /* Punctuation (horizontal right hand) */
 
